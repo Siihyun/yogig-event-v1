@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Information from './components/information/Information';
+import Content from './components/content/Content';
+import Participation from './components/participation/Participation';
+import Rewards from './components/rewards/Rewards';
+import FAQs from './components/faq/FAQs';
+import Consideration from './components/consideration/Consideration';
+import Intersection from './components/intersection/Intersection';
+import Share from './components/share/Share';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='main'>
+      <Information />
+      <Content />
+      <Intersection>
+        <Participation />
+        <Rewards />
+        <FAQs />
+        <Consideration />
+        <Share />
+      </Intersection>
+    </main>
   );
 }
 

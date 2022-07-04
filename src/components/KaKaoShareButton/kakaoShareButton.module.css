@@ -1,0 +1,11 @@
+.kakaoSharebutton {
+  cursor: pointer;
+  color: transparent;
+  position: absolute;
+  background: transparent;
+  opacity: 0;
+  top: 17.5%;
+  left: 62.5%;
+  right: 24%;
+  bottom: 52%;
+}

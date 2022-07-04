@@ -1,0 +1,16 @@
+.considerationSection {
+  position: relative;
+}
+
+.buttonWrapper {
+  position: absolute;
+  height: 24.5%;
+  top: 49%;
+  left: 5%;
+  right: 5%;
+  border: 3px solid red;
+}
+
+.considerationImage {
+  cursor: pointer;
+}

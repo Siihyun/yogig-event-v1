@@ -1,0 +1,12 @@
+.contentSection {
+  position: relative;
+}
+
+.linkPromotion {
+  color: transparent;
+  position: absolute;
+  top: 87%;
+  left: 8%;
+  right: 8%;
+  bottom: 4%;
+}

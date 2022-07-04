@@ -1,0 +1,15 @@
+.shareSection {
+  position: relative;
+}
+
+.linkCopyButton {
+  cursor: pointer;
+  opacity: 0;
+  color: transparent;
+  position: absolute;
+  background: transparent;
+  top: 17.5%;
+  left: 78.5%;
+  right: 8%;
+  bottom: 52%;
+}
