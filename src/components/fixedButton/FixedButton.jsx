@@ -4,7 +4,14 @@ import styles from './fixedButton.module.css';
 
 const FixedButton = () => {
   return (
-    <a href='https://yogig.onelink.me/LZA8/02n96vt9'>
+    <a
+      href='https://link.yogig.com/tmcv21/AY2a'
+      onClick={() => {
+        window.opener = null;
+        window.open('', '_self');
+        window.close();
+      }}
+    >
       <img
         className={styles.fixedButton}
         src='/images/img_float.png'

@@ -12,7 +12,12 @@ const Content = () => {
 
       <a
         className={styles.linkPromotion}
-        href='https://yogig.onelink.me/LZA8/02n96vt9'
+        href='https://link.yogig.com/tmcv21/AY2a'
+        onClick={() => {
+          window.opener = null;
+          window.open('', '_self');
+          window.close();
+        }}
       >
         100만원 미션 찾으러 가긱
       </a>
