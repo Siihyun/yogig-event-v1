@@ -9,18 +9,20 @@ const Content = () => {
         src='/images/img_section02.png'
         alt='event information'
       ></img>
-
-      <a
-        className={styles.linkPromotion}
-        href='https://link.yogig.com/tmcv21/AY2a'
+      <div
         onClick={() => {
           window.opener = null;
           window.open('', '_self');
           window.close();
         }}
       >
-        100만원 미션 찾으러 가긱
-      </a>
+        <a
+          className={styles.linkPromotion}
+          href='https://link.yogig.com/tmcv21/AY2a'
+        >
+          100만원 미션 찾으러 가긱
+        </a>
+      </div>
     </section>
   );
 };
