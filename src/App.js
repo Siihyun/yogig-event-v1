@@ -9,6 +9,7 @@ import Intersection from './components/intersection/Intersection';
 import Share from './components/share/Share';
 
 function App() {
+  console.log('test');
   return (
     <main className='main'>
       <Information />
